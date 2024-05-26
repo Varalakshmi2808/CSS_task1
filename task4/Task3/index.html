@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            width: 98vw;
+            height: 260px;
+            background-color: cadetblue;
+        }
+        .head{
+            height: 170px;
+            display: flex;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .nav{
+            margin: auto;
+            height: 77px;
+        }
+        .head img{
+            height: 130px;
+        }
+        .luffy{
+            font-family: Arial, Helvetica, sans-serif;
+            color: bisque;
+            font-size: 30px;
+            font-weight: bolder;
+            margin-top: 30px;
+            padding: 10px;        }
+        hr{
+            border-top: 3px solid white;
+            margin: 0;
+        }
+        
+        .list{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin-left: 10px;
+            margin-right: 30px;
+        }
+        li{
+            list-style-type: none;
+            
+        }
+        li:hover{
+            background-color: rgb(10, 66, 63);
+        }
+        li a{
+            display: inline-block;
+            font-size: 30px;
+            color: beige;
+            text-decoration-line: none;
+            padding: 15px;
+        }
+       
+        iframe{
+            height:600px;
+            width: 100vw;
+            overflow: auto;
+            top: 0;
+        }
+        .footer{
+            background-color: cadetblue;
+            display: flex;
+            justify-content: space-around;
+            padding: 100px;
+        }
+        .footer div{
+            color: beige;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="head">
+            <div><a href=""><img src="monkey.png" alt=""></a></div>
+            <div class="luffy">Monkey.D.Luffy</div>
+        </div>
+        <hr>
+        <div class="nav">
+           <nav>
+           <ul class="list">
+            <li><a href="devil.html" target="x">Devil Fruit</a></li>
+            <li><a href="">Transformations</a></li>
+            <li><a href="haki.html" target="x">Haki</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Help</a></li>
+           </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="two">
+    <iframe src="monkey.html" frameborder="0" name="x" ></iframe>
+    </div>
+    <div class="footer">
+        <div style="text-align: center;"> USEFULL LINKS <br>
+            About <br>
+            More <br>
+            Services
+        </div>
+        <div style="text-align: center;">NEWSLETTER <br><br>
+            <input type="email" style="height: 20px;text-align: center ;" placeholder="Email"> <br><br>
+            <button style="height: 40px ;border-radius:  20px;"> Subscribe Now</button></div>
+        <div>SOCIAL MEDIA
+            <br>
+            <div>
+               
+                <img src="insta.jpg" alt="" height="30px;width:50px">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
